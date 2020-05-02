@@ -1,0 +1,191 @@
+/* Home style */
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+body {
+    background-image: url(../resources/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+    height: auto;
+    width: auto;
+    padding-bottom: 40px;
+}
+body > div:nth-child(1) {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+body > div:nth-child(1) > div:nth-child(1) {
+    width: 30%;
+}
+
+.nav_item:active {
+    background-color: #116611;
+}
+.nav_item:hover {
+    background-color: #116611;
+}
+.current_tab {
+    background-color: #116611;
+}
+#site_name {
+    font-family: 'Permanent Marker', cursive;
+    border: thick solid white;
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    margin-left: 60px;
+}
+.floatLeft {
+    float: left;
+}
+.clear {
+    clear: left;
+}
+a {
+    text-decoration: none;
+}
+@media only screen and (min-width: 600px) {
+    #site_desc {
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 80%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #site_name {
+        font-family: 'Permanent Marker', cursive;
+        border: thick solid white;
+        font-size: 40px;
+        color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 20px;
+        margin-left: 60px;
+    }
+    #nav {
+        margin: 20px;
+        width: 63.5%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav_item {
+    
+        align-content: center;
+        padding: 3px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        background-color: #55AA55;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        margin: 8px;
+    }
+    .video_spot {
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 30px;
+        margin: 40px 40px 0px 40px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .video_spot > div:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .video_spot > div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(000, 000, 000,0.6);
+        padding: 20px;
+    }
+    .video_spot > div:nth-child(2) > iframe {
+        width: "25%";
+        margin: 20px;
+    }
+    .latest_news > div {
+        margin: 10px;
+    }
+    .latest_news {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        text-align: center;
+    }
+    .latest_news > div > div {
+        margin: auto;
+        margin-top: 10px;
+        width: 420px;
+    }
+    .latest_news > div > img {
+        height: 420px;
+    }
+    .titlebar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #site_desc {
+        margin-left: 60px;
+        margin-top: 30px;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #nav {
+        margin-top: 30px;
+        padding: 10px;
+        width: 63.5%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 53px;
+        grid-gap: 15px;
+        
+    }
+    .video_spot {
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 30px;
+        margin: 40px 40px 0px 40px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .video_spot > div:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .video_spot > div:nth-child(2) {
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(000, 000, 000,0.6);
+        padding: 20px;
+        width: 97%;
+    }
+    .video_spot > div:nth-child(2) > iframe {
+        margin: 20px;
+    }
+    .latest_news > div {
+        margin: 10px;
+    }
+    .latest_news {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        text-align: center;
+        text-align: center;
+    }
+    .latest_news > div > div {
+        margin: auto;
+        margin-top: 10px;
+        width: 420px;
+    }
+    .latest_news > div > img {
+        height: 420px;
+    }
+    .titlebar {
+        display: flex;
+    }
+}

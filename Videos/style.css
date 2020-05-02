@@ -1,0 +1,92 @@
+/* Videos style */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+body {
+    background-color: #F5F5F5;
+    background-image: url(../resources/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+}
+body > div:nth-child(1) {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+body > div:nth-child(1) > div:nth-child(1) {
+    width: 30%;
+}
+.floatLeft {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+#nav {
+    margin-top: 30px;
+    padding: 10px;
+    width: 63.5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 53px;
+    grid-gap: 15px;
+    
+}
+.nav_item {
+    
+    align-content: center;
+    padding: 6px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: #55AA55;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+.nav_item:active {
+    background-color: #116611;
+}
+.nav_item:hover {
+    background-color: #116611;
+}
+.current_tab {
+    background-color: #116611;
+}
+#site_name {
+    font-family: 'Permanent Marker', cursive;
+    border: thick solid white;
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+a {
+    text-decoration: none;
+}
+#grid {
+    display: grid;
+    width: 91%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin: 80px;
+    grid-gap: 20px;
+}
+#grid > div {
+    height: fit-content;
+    width: 95%;
+    border: 1px solid gray;
+    background-color: #000000;
+}
+#grid > div > div {
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+}
+#grid > div > iframe {
+    border: 1px solid gray;
+}

@@ -1,0 +1,126 @@
+/* News page style */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+body {
+    background-color: #F5F5F5;
+    background-image: url(../resources/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+}
+body > div:nth-child(1) {
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+}
+body > div:nth-child(1) > div:nth-child(1) {
+    width: 30%;
+}
+.floatLeft {
+    float: left;
+}
+.main_box {
+    height: 770px;
+    width: 100%;
+    background-color: #08345B;
+}
+.main_box > img {
+    width: 916px;
+    height: 460px;
+}
+.small_box {
+    margin-top: 25px;
+    height: 134px;
+    width: 100%;
+    background-color: white;
+}
+.small_box > img {
+    height: 134px;
+    width: 268px;
+}
+.column {
+    margin: 18px;
+    width: 48%;
+    min-height: 90%;
+    
+}
+.subhead {
+    padding: 10px 0px 0px 15px ;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    font-size: 22px;
+}
+#heading {
+    margin: 25px 50px 5px 20px;
+    color: white;
+    font-size: 41px;
+    
+}
+#main_desc {
+    color: lightgray;
+    padding: 10px 0px 20px 20px;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+.subhead_color {
+    color: #08345B;
+}
+.sub_desc {
+    color: black;
+    font-size: x-large;
+    margin: 0px 0px 0px 15px;
+    max-width: 600px;
+    font-family: 'Open Sans', sans-serif;
+}
+#box {
+    background-image: url(../resources/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+    height: auto;
+    padding-bottom: 40px;
+}
+.clear {
+    clear: both;
+}
+#nav {
+    margin-top: 30px;
+    padding: 10px;
+    width: 63.5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 53px;
+    grid-gap: 15px;
+    
+}
+.nav_item {
+    
+    align-content: center;
+    padding: 6px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: #55AA55;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+.nav_item:active {
+    background-color: #116611;
+}
+.nav_item:hover {
+    background-color: #116611;
+}
+.current_tab {
+    background-color: #116611;
+}
+#site_name {
+    font-family: 'Permanent Marker', cursive;
+    border: thick solid white;
+    font-size: 50px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    margin-left: 60px;
+}
+a {
+    text-decoration: none;
+}
