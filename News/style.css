@@ -5,8 +5,10 @@ html, body {
     margin: 0px;
 }
 body {
-    background-color: #F5F5F5;
     background-image: url(../resources/willian-justen-de-vasconcellos-KqpDuf1i83w-unsplash.jpg);
+    height: auto;
+    width: auto;
+    padding-bottom: 40px;
 }
 body > div:nth-child(1) {
     display: flex;
